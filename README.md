@@ -1,6 +1,6 @@
 # npmtest-gulp-json-editor
 
-#### test coverage for  [gulp-json-editor (v2.2.1)](https://github.com/morou/gulp-json-editor)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-json-editor.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-json-editor) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-json-editor.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-json-editor)
+#### basic test coverage for  [gulp-json-editor (v2.2.1)](https://github.com/morou/gulp-json-editor)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-json-editor.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-json-editor) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-json-editor.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-json-editor)
 
 #### A gulp plugin to edit JSON object
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-json-editor/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-json-editor/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-json-editor/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-json-editor/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-json-editor/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-json-editor/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-json-editor/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-json-editor/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-json-editor/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-json-editor/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-json-editor/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-json-editor/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "2.2.1"
+    "version": "2.2.1",
+    "bin": {}
 }
 ```
 
